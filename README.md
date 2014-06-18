@@ -1,6 +1,6 @@
 # Devdigest
 
-A script to collect activity from Github and (attempt to) compose a daily digest of what happened in your team.
+A script to collect activity from GitHub and (attempt to) compose a daily digest of what happened in your team.
 
 
 ## Terms of use
@@ -14,7 +14,7 @@ FINALLY, DO NOT USE THIS TO MEASURE PERFORMANCE.
 
 ## Usage
 
-You'll need a [Github OAuth token](https://help.github.com/articles/creating-an-oauth-token-for-command-line-use).
+You'll need a [GitHub OAuth token](https://help.github.com/articles/creating-an-oauth-token-for-command-line-use).
 
     cp .env.sample .env
     vim .env # fill in with the token and your team details

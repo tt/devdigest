@@ -23,7 +23,7 @@ class Devdigest
   def run_github_digest
     return unless %w{GITHUB_ORG GITHUB_REPOS GITHUB_TOKEN GITHUB_USERS}.all? {|key| ENV.has_key?(key)}
     return if skip?("github")
-    add "# Github activity"
+    add "# GitHub activity"
     add ""
 
     github = Github.new oauth_token: ENV["GITHUB_TOKEN"]
